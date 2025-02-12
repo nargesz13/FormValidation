@@ -10,12 +10,6 @@ body{
     padding: 0;
     overflow: hidden;
 }
-.form{
-    overflow: hidden;
-}
-.input-group{
-    height: auto;
-}
 .bg_icon{
     background-color: #363B41;
 }
