@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="css/all.css">
+    <script src="js/script.js" defer></script>
+    <title>formValidation</title>
+</head>
+<body class="d-flex align-items-center">
+
+   <form action="#" class="form mx-auto w_R" novalidate>
+
+   <div class="mb-3">
+    <label for="mail" class="label-i">Please enter a valid email address</label>
+    <div class="input-group">
+        <span class="input-group-text border border-0 bg_icon">
+            <i class="fa fa-user fa-1x icon p-2"></i></span>
+        <input id="mail" type="email" class="form-control input border border-0 p-3" 
+        placeholder="Email">
+    </div>
+   </div>
+    
+    <div class="mb-3">
+        <label for="pass" class="label-i">8+ chars, uppercase, lowercase, numbers, symbols</label>
+        <div class="input-group">
+            <span class="input-group-text border border-0 bg_icon">
+                <i class="fa fa-lock fa-1x icon p-2"></i></span>
+            <input id="pass" type="password" class="form-control input border border-0 p-3"
+             placeholder="Password">
+        </div>
+    </div>
+
+    <div class="mb-3">
+        <label for="pass-r" class="label-i">Passwords do not match. Retry</label>
+        <div class="input-group">
+            <span class="input-group-text border border-0 bg_icon">
+                <i class="fa fa-lock fa-1x icon p-2"></i></span>
+            <input id="pass-r" type="password" class="form-control input border border-0 p-3"
+             placeholder="Repeat Password">
+        </div>
+    </div>
+
+    <div class="mb-3">
+        <button  class="submit-B w-100 border-0 p-3">SIGN UP</button>
+    </div>
+    
+   </form> 
+
+
+
+
+   <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
