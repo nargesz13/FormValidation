@@ -44,6 +44,7 @@ inputs[2].addEventListener('input',()=>{
 });
 //---------
 btn.addEventListener('click', submitForm);
+form.addEventListener('submit',e=>e.preventDefault());
 
 //------------------------------------------------------------
 function checkInput(i,condition){
